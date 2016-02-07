@@ -56,7 +56,8 @@ e.g.
 
 License and Authors
 -------------------
-Authors: TODO: List authors
+Authors:
+- Nicola Scendoni
 =======
 # oud-cookbook
 Chef Cookbook for Oracle Unified Directory installation
