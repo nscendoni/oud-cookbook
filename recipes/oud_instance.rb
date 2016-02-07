@@ -22,6 +22,6 @@ bash "create_instance" do
            	--no-prompt ;
 	rm /tmp/pass
 	EOH
-        creates #{node['oud']['middleware_home']} + '/' + node['oud']['instance_name']
+        creates node['oud']['middleware_home'] + '/' + node['oud']['instance_name']
 end
 
