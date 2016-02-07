@@ -99,19 +99,16 @@ Attributes
 Usage
 -----
 #### oud::default
-TODO: Write usage instructions for each cookbook.
+Install requried packages, jdk, OUD package and create one OUD Server instance.
 
-e.g.
-Just include `oud` in your node's `run_list`:
+#### oud::oud_prepare
+Install requried packages, jdk, create oraInst.loc file and download installer
 
-```json
-{
-  "name":"my_node",
-  "run_list": [
-    "recipe[oud]"
-  ]
-}
-```
+#### oud::oud_install
+Install OUD packages
+
+#### oud::oud_instance
+Install OUD Server instance
 
 Contributing
 ------------
