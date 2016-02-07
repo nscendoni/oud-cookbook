@@ -69,6 +69,31 @@ Attributes
     <td>Base DN</td>
     <td><tt>dc=scendoni,dc=org</tt></td>
   </tr>
+  <tr>
+    <td><tt>default['oud']['ldap_port']</tt></td>
+    <td>String</td>
+    <td>LDAP Port</td>
+    <td><tt>1389</tt></td>
+  </tr>
+  <tr>
+    <td><tt>default['oud']['admin_port']</tt></td>
+    <td>String</td>
+    <td>Admin Instance Port</td>
+    <td><tt>4444</tt></td>
+  </tr>
+  <tr>
+    <td><tt>default['oud']['root_user_dn']</tt></td>
+    <td>String</td>
+    <td>Admin DN</td>
+    <td><tt>cn=Directory Manager</tt></td>
+  </tr>
+  <tr>
+    <td><tt>default['oud']['root_password']</tt></td>
+    <td>String</td>
+    <td>Admin DN password. TODO: encrypt it</td>
+    <td><tt>password</tt></td>
+  </tr>
+  
 </table>
 
 Usage
