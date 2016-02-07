@@ -1,6 +1,8 @@
 ---
 driver:
   name: vagrant
+  customize:
+    memory: 2048
 
 provisioner:
   name: chef_solo
@@ -10,7 +12,6 @@ platforms:
   - name: centos-6.5
 
 suites:
-  - name: default
+  - name: oud
     run_list:
-      - recipe[oud::default]
-    attributes:
+    - recipe[oud::default]
