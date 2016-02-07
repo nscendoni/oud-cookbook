@@ -57,7 +57,7 @@ e.g.
 License and Authors
 -------------------
 Authors: 
-
+--------
 Nicola Scendoni
 
 =======
