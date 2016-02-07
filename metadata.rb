@@ -1,7 +1,7 @@
 name             'oud'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
-license          'All rights reserved'
-description      'Installs/Configures oud'
+maintainer       'Nicola Scendoni'
+maintainer_email 'scendoni@gmail.com'
+license          'Apache License'
+description      'Installs/Configures Oracle Unified Directory Server'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
