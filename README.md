@@ -10,17 +10,6 @@ Installer and JDK has to be downloaded and stored on a http server.
 
 Attributes
 ----------
-default['oud']['inventory_path'] = '/home/oracle'
-
-default['oud']['middleware_home'] = '/opt/oracle'
-default['oud']['jdk'] = 'http://192.168.101.1/jdk-7u79-linux-x64.rpm'
-default['oud']['installer_url'] = 'http://192.168.101.1/V75929-01.zip'
-
-default['oud']['instance_name'] = 'asinst_1'
-default['oud']['base_dn'] = 'dc=scendoni,dc=org'
-default['oud']['ldap_port'] = 1389
-default['oud']['admin_port'] = 4444
-default['oud']['root_user_dn'] = 'cn=Directory Manager'
 
 
 <table>
@@ -31,9 +20,7 @@ default['oud']['root_user_dn'] = 'cn=Directory Manager'
     <th>Default</th>
   </tr>
 
-#TODO: Encrypt
-default['oud']['root_password'] = 'password'
-  
+
   <tr>
     <td><tt>default['oud']['sysuser']</tt></td>
     <td>String</td>
