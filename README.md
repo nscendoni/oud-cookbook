@@ -1,24 +1,15 @@
-oud Cookbook
+Oracle Unified Directory Server  Cookbook
 ============
-TODO: Enter the cookbook description here.
-
-e.g.
-This cookbook makes your favorite breakfast sandwich.
+Cookbook for Oracle Unified Directory Server installation
 
 Requirements
 ------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
+Installer and JDK has to be downloaded and stored on a http server.
 
-e.g.
-#### packages
-- `toaster` - oud needs toaster to brown your bagel.
+
 
 Attributes
 ----------
-TODO: List your cookbook attributes here.
-
-e.g.
-#### oud::default
 <table>
   <tr>
     <th>Key</th>
