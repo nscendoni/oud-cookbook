@@ -1,6 +1,6 @@
 Oracle Unified Directory Server  Cookbook
 ============
-Cookbook for Oracle Unified Directory Server installation
+Cookbook for Oracle Unified Directory Server 11.1.2.3 installation
 
 Requirements
 ------------
