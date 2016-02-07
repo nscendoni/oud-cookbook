@@ -123,7 +123,7 @@ Contributing
 License and Authors
 -------------------
 Authors: 
---------
+
 Nicola Scendoni
 
 =======
