@@ -33,6 +33,42 @@ Attributes
     <td>System group that run OUD</td>
     <td><tt>oracle</tt></td>
   </tr>
+  <tr>
+    <td><tt>default['oud']['inventory_path']</tt></td>
+    <td>String</td>
+    <td>Path for OUD inventory</td>
+    <td><tt>/home/oracle</tt></td>
+  </tr>
+  <tr>
+    <td><tt>default['oud']['middleware_home']</tt></td>
+    <td>String</td>
+    <td>Path for OUD Middleware installation</td>
+    <td><tt>/opt/oracle</tt></td>
+  </tr>
+  <tr>
+    <td><tt>default['oud']['jdk']</tt></td>
+    <td>String</td>
+    <td>Url for jdk installation.  RPM is required</td>
+    <td><tt>http://192.168.101.1/jdk-7u79-linux-x64.rpm</tt></td>
+  </tr>
+  <tr>
+    <td><tt>default['oud']['installer_url']</tt></td>
+    <td>String</td>
+    <td>Url for OUD installation.</td>
+    <td><tt>http://192.168.101.1/V75929-01.zip</tt></td>
+  </tr>
+  <tr>
+    <td><tt>default['oud']['instance_name']</tt></td>
+    <td>String</td>
+    <td>OUD instance name</td>
+    <td><tt>asinst_1</tt></td>
+  </tr>
+  <tr>
+    <td><tt>default['oud']['base_dn']</tt></td>
+    <td>String</td>
+    <td>Base DN</td>
+    <td><tt>dc=scendoni,dc=org</tt></td>
+  </tr>
 </table>
 
 Usage
