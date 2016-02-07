@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 oud Cookbook
 ============
 TODO: Enter the cookbook description here.
@@ -66,3 +67,7 @@ e.g.
 License and Authors
 -------------------
 Authors: TODO: List authors
+=======
+# oud-cookbook
+Chef Cookbook for Oracle Unified Directory installation
+>>>>>>> d509992b7836145ff08422923e6beff1fccfaf08
