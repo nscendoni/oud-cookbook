@@ -1,4 +1,4 @@
-Oracle Unified Directory Server  Cookbook
+Oracle Unified Directory Server Chef Cookbook
 ============
 Cookbook for Oracle Unified Directory Server 11.1.2.3 installation
 
