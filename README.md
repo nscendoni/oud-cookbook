@@ -1,6 +1,11 @@
 Oracle Unified Directory Server Chef Cookbook
 ============
-Cookbook for Oracle Unified Directory Server 11.1.2.3 installation
+Cookbook for Oracle Unified Directory Server 11.1.2.3 installation.
+
+    git clone https://github.com/nscendoni/oud-cookbook.git
+    cd oud-cookbook
+    kitchen converge 65
+    
 
 Requirements
 ------------
